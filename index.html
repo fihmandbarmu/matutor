@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana AI Math Tutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🍌 Banana Math Tutor 🍎</h1>
+    <button id="start-btn">Start Lesson (Turn on Sound!)</button>
+
+    <div class="classroom">
+        <!-- The AI Tutor -->
+        <div class="character-area">
+            <div class="speech-bubble" id="tutor-bubble">Hello! I am your Banana Math Tutor!</div>
+            <div class="character banana">
+                <div class="eyes">
+                    <div class="eye"></div>
+                    <div class="eye"></div>
+                </div>
+                <div class="mouth" id="banana-mouth"></div>
+            </div>
+        </div>
+
+        <!-- The User (Apple) -->
+        <div class="character-area">
+            <div class="character apple">
+                <!-- Simple CSS Apple -->
+                <div class="leaf"></div>
+                <div class="apple-body"></div>
+            </div>
+            <div class="controls">
+                <input type="number" id="answer-input" placeholder="Type your answer..." disabled>
+                <button id="submit-btn" disabled>Answer</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
