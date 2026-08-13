@@ -15,7 +15,7 @@ startBtn.addEventListener('click', () => {
     answerInput.disabled = false;
     submitBtn.disabled = false;
     
-    speakTutor("Hello little apple! I am your Banana tutor. Let's do some math! Before can you hear me continue if it is yes ask an adulat to trouble shoot or reset if no", () => {
+    speakTutor("Hello little apple! I am your Banana tutor. Let's do some math! Before can you hear me continue if it is yes ask an adulat to trouble shoot or reset if no. if you don't know how it works I will ask you a maths question and you type your anwser if you are dione you click enter even if you got it wrongh you are teh apple and you can't click me", () => {
         askQuestion();
     });
 });
