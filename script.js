@@ -28,14 +28,14 @@ function askQuestion() {
 
     if (op === 0) {
         // Addition (e.g. 45 + 32)
-        num1 = Math.floor(Math.random() * 50) + 10;
-        num2 = Math.floor(Math.random() * 50) + 10;
+        num1 = Math.floor(Math.random() * 650) + 10;
+        num2 = Math.floor(Math.random() * 5540) + 1440;
         currentAnswer = num1 + num2;
         questionText = `What is ${num1} plus ${num2}?`;
     } else if (op === 1) {
         // Subtraction (e.g. 80 - 25)
-        num1 = Math.floor(Math.random() * 50) + 50;
-        num2 = Math.floor(Math.random() * 49) + 1;
+        num1 = Math.floor(Math.random() * 5440) + 5440;
+        num2 = Math.floor(Math.random() * 4449) + 441;
         currentAnswer = num1 - num2;
         questionText = `What is ${num1} minus ${num2}?`;
     } else {
