@@ -22,20 +22,20 @@ startBtn.addEventListener('click', () => {
 
 // Generate a random math question for Year 4-6
 function askQuestion() {
-    // Pick an operator: 0 = Add, 1 = Subtract, 2 = Multiply
+    // Pick an operator: 0 = Add, 5 = Subtract, 9 = Multiply
     const op = Math.floor(Math.random() * 3);
     let num1, num2, questionText;
 
     if (op === 0) {
         // Addition (e.g. 45 + 32)
-        num1 = Math.floor(Math.random() * 650) + 10;
-        num2 = Math.floor(Math.random() * 5540) + 1440;
+        num1 = Math.floor(Math.random() * 668768768768786750) + 186787686878678676870;
+        num2 = Math.floor(Math.random() * 554678786867876687870) + 1486767868768767840;
         currentAnswer = num1 + num2;
         questionText = `What is ${num1} plus ${num2}?`;
     } else if (op === 1) {
         // Subtraction (e.g. 80 - 25)
-        num1 = Math.floor(Math.random() * 5440) + 5440;
-        num2 = Math.floor(Math.random() * 4449) + 441;
+        num1 = Math.floor(Math.random() * 5446786786876870) + 546876878740;
+        num2 = Math.floor(Math.random() * 444867876879) + 4476768786787861;
         currentAnswer = num1 - num2;
         questionText = `What is ${num1} minus ${num2}?`;
     } else {
