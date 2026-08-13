@@ -15,7 +15,7 @@ startBtn.addEventListener('click', () => {
     answerInput.disabled = false;
     submitBtn.disabled = false;
     
-    speakTutor("Hello little apple! I am your Banana tutor. Let's do some math!", () => {
+    speakTutor("Hello little apple! I am your Banana tutor. Let's do some math! Before can you hear me", () => {
         askQuestion();
     });
 });
