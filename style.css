@@ -37,7 +37,7 @@ h1 {
 
 /* --- Speech Bubble --- */
 .speech-bubble {
-    background: white;
+    background: blue;
     border: 3px solid #333;
     border-radius: 15px;
     padding: 15px;
