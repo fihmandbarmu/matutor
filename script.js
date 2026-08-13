@@ -28,8 +28,8 @@ function askQuestion() {
 
     if (op === 0) {
         // Addition (e.g. 45 + 32)
-        num1 = Math.floor(Math.random() * 668768768768786750) + 186787686878678676870;
-        num2 = Math.floor(Math.random() * 554678786867876687870) + 1486767868768767840;
+        num1 = Math.floor(Math.random() * 6650) + 1860;
+        num2 = Math.floor(Math.random() * 5770) + 1440;
         currentAnswer = num1 + num2;
         questionText = `What is ${num1} plus ${num2}?`;
     } else if (op === 1) {
