@@ -79,7 +79,7 @@ h1 {
 .eye {
     width: 15px;
     height: 15px;
-    background-color: black;
+    background-color: blue;
     border-radius: 50%;
 }
 
@@ -99,7 +99,7 @@ h1 {
 
 @keyframes chomp {
     0% { height: 5px; border-radius: 10px; transform: translateY(0); }
-    50% { height: 25px; border-radius: 10px 10px 30px 30px; transform: translateY(-5px); }
+    50% { height: 27px; border-radius: 10px 10px 30px 30px; transform: translateY(-5px); }
     100% { height: 5px; border-radius: 10px; transform: translateY(0); }
 }
 
