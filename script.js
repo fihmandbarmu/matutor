@@ -40,8 +40,8 @@ function askQuestion() {
         questionText = `What is ${num1} minus ${num2}?`;
     } else {
         // Multiplication (Times tables up to 12x12)
-        num1 = Math.floor(Math.random() * 11) + 2;
-        num2 = Math.floor(Math.random() * 11) + 2;
+        num1 = Math.floor(Math.random() * 99) + 0;
+        num2 = Math.floor(Math.random() * 196) + 2;
         currentAnswer = num1 * num2;
         questionText = `What is ${num1} times ${num2}?`;
     }
