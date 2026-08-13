@@ -34,7 +34,7 @@ function askQuestion() {
         questionText = `What is ${num1} plus ${num2}?`;
     } else if (op === 1) {
         // Subtraction (e.g. 80 - 25)
-        num1 = Math.floor(Math.random() * 5446786786876870) + 546876878740;
+        num1 = Math.floor(Math.random() * 754) + 635;
         num2 = Math.floor(Math.random() * 444867876879) + 4476768786787861;
         currentAnswer = num1 - num2;
         questionText = `What is ${num1} minus ${num2}?`;
